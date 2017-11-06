@@ -31,7 +31,7 @@ node (''){
 
 
     // the complete build command. modify as need
-    env.BUILD_COMMAND = "npm install && npm run-script ci"
+    env.BUILD_COMMAND = "scl enable rh-nodejs6 'npm install && npm run-script ci'"
 
 
 
