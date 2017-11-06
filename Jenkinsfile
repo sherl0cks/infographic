@@ -23,7 +23,7 @@ node (''){
 
     // this value is relative to env.SOURCE_CONTEXT_DIR
     // it should be set to the location where you build outputs the artifacts you want to publish to your container build
-    env.BUILD_OUTPUT_CONTEXT_DIR = "target/"
+    env.BUILD_OUTPUT_CONTEXT_DIR = "."
 
     /**
         TODO add support for npm artifact repos
